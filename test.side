@@ -1,0 +1,263 @@
+{
+  "id": "1bf9612b-7257-4d99-a524-6b7747945f16",
+  "version": "2.0",
+  "name": "test",
+  "url": "http://www.practiceselenium.com/practice-form.html",
+  "tests": [{
+    "id": "ac8c2a72-701e-407d-b1c0-f3e4385f0199",
+    "name": "Trung",
+    "commands": [{
+      "id": "01101948-5241-4492-82d8-e35e902eefbf",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.practiceselenium.com/practice-form.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f598954c-80fe-4a35-bc98-66ff4e86f91d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "807x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e127dc6-274b-4b64-8c53-a6f3d59a767d",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7de610f0-9ab5-4aa5-924d-60d862df7305",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=p:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Huong"
+    }, {
+      "id": "c5844899-c846-4d92-9795-3a7c40801dc7",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.control-group:nth-child(4) > p:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div/p[3]/input", "xpath:idRelative"],
+        ["xpath=//p[3]/input", "xpath:position"]
+      ],
+      "value": "Nguyen Thi"
+    }, {
+      "id": "b12a983a-39ef-4ed4-90a4-c398feccbabf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-group:nth-child(6) > p:nth-child(3)",
+      "targets": [
+        ["css=.control-group:nth-child(6) > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90009cfa-da51-4d6c-96ce-a548e4883891",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-group:nth-child(6) > p:nth-child(3)",
+      "targets": [
+        ["css=.control-group:nth-child(6) > p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[2]/p[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/p[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f2e96c5-719d-4199-9e3b-62d8c825d536",
+      "comment": "",
+      "command": "click",
+      "target": "id=sex-1",
+      "targets": [
+        ["id=sex-1", "id"],
+        ["css=#sex-1", "css:finder"],
+        ["xpath=//input[@id='sex-1']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[2]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd564408-ed66-49b1-a0ca-a56d1dd8beb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=exp-6",
+      "targets": [
+        ["id=exp-6", "id"],
+        ["css=#exp-6", "css:finder"],
+        ["xpath=//input[@id='exp-6']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[3]/p[2]/input[7]", "xpath:idRelative"],
+        ["xpath=//input[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23c30b2d-37b8-4679-94dd-7bdd0f50dbf0",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea1",
+      "targets": [
+        ["id=tea1", "id"],
+        ["name=BlackTea", "name"],
+        ["css=#tea1", "css:finder"],
+        ["xpath=//input[@id='tea1']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d067592-dac5-4654-a21a-803f8d5ec577",
+      "comment": "",
+      "command": "click",
+      "target": "id=tea2",
+      "targets": [
+        ["id=tea2", "id"],
+        ["name=RedTea", "name"],
+        ["css=#tea2", "css:finder"],
+        ["xpath=//input[@id='tea2']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[4]/p[2]/input[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/p[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74a7f83e-b567-4e7b-a3a5-ac17a8e05b11",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-0",
+      "targets": [
+        ["id=tool-0", "id"],
+        ["name=tool", "name"],
+        ["css=#tool-0", "css:finder"],
+        ["xpath=//input[@id='tool-0']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b871929-cd6d-49aa-a5ed-907b28149663",
+      "comment": "",
+      "command": "click",
+      "target": "css=.control-group:nth-child(14) > p:nth-child(4)",
+      "targets": [
+        ["css=.control-group:nth-child(14) > p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[3]", "xpath:idRelative"],
+        ["xpath=//div[6]/p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'Harmless Addiction')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4d331cd-2820-47b4-b860-ba78627e0349",
+      "comment": "",
+      "command": "click",
+      "target": "id=tool-1",
+      "targets": [
+        ["id=tool-1", "id"],
+        ["css=#tool-1", "css:finder"],
+        ["xpath=//input[@id='tool-1']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[6]/p[3]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/p[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41868023-bf88-4da8-9fdc-c1fee089fefc",
+      "comment": "",
+      "command": "click",
+      "target": "id=continents",
+      "targets": [
+        ["id=continents", "id"],
+        ["name=continents", "name"],
+        ["css=#continents", "css:finder"],
+        ["xpath=//select[@id='continents']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[7]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8fe5e5a6-302d-41f7-a80d-81ceb2228c28",
+      "comment": "",
+      "command": "select",
+      "target": "id=continents",
+      "targets": [],
+      "value": "label=Asia"
+    }, {
+      "id": "f75dde01-f472-42b5-8507-ad050f6782ce",
+      "comment": "",
+      "command": "click",
+      "target": "css=#continents > option:nth-child(3)",
+      "targets": [
+        ["css=#continents > option:nth-child(3)", "css:finder"],
+        ["xpath=//select[@id='continents']/option[3]", "xpath:idRelative"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'Asia')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdbb2623-0884-4791-b698-ca4eccd780c2",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=selenium_commands",
+      "targets": [
+        ["id=selenium_commands", "id"],
+        ["name=selenium_commands", "name"],
+        ["css=#selenium_commands", "css:finder"],
+        ["xpath=//select[@id='selenium_commands']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[8]/div/select", "xpath:idRelative"],
+        ["xpath=//div[8]/div/select", "xpath:position"]
+      ],
+      "value": "label=Browser Commands"
+    }, {
+      "id": "1427f16a-18cc-4f23-bc3a-03971309a048",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000452032346']/div/form/fieldset/div[9]/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a463173-6aad-4c9a-ab1c-ef2e8896f469",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#wsb-element-00000000-0000-0000-0000-000450914887 span",
+      "targets": [
+        ["css=#wsb-element-00000000-0000-0000-0000-000450914887 span", "css:finder"],
+        ["xpath=//div[@id='wsb-element-00000000-0000-0000-0000-000450914887']/div/p/span", "xpath:idRelative"],
+        ["xpath=//div[9]/div/p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'For more than 25 years, Passion Tea Company has revolutionized the tea industry by letting our customers create a blend that combines their favorite herbs and spices. We offer thousands of natural flavors from all over the world and want you to have the opportunity to create a tea, and call it yours! We proudly partner with seleniumframework.com to help them use our website for Continuous Test Automation practice exercises ')]", "xpath:innerText"]
+      ],
+      "value": "For more than 25 years, Passion Tea Company has revolutionized the tea industry by letting our customers create a blend that combines their favorite herbs and spices. We offer thousands of natural flavors from all over the world and want you to have the opportunity to create a tea, and call it yours! We proudly partner with seleniumframework.com to help them use our website for Continuous Test Automation practice exercises "
+    }]
+  }],
+  "suites": [{
+    "id": "1e20f7af-afc0-48a3-a3aa-3d7eab3d6afc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ac8c2a72-701e-407d-b1c0-f3e4385f0199"]
+  }],
+  "urls": ["http://www.practiceselenium.com/practice-form.html"],
+  "plugins": []
+}
